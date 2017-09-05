@@ -16,5 +16,4 @@ abstract boolean onStopJob(JobParameters params)
 
 使用JobService可以实现APP进程防杀。
 
-首先需要声明权限
-   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+首先需要声明权限   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
