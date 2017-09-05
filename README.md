@@ -1,5 +1,6 @@
 # AndroidDaemon
 Android进程守护 进程保活
+
 Google从Android SDK 21之后添加了JobScheduler来执行一些满足特定条件但不紧急的后台任务，我们可以利用JobScheduler来执行这些特殊的后台任务时来减少电量的消耗。JobService则是一个抽象类，其中包含两个抽象方法：
 
 abstract boolean onStartJob(JobParameters params)
@@ -16,4 +17,6 @@ abstract boolean onStopJob(JobParameters params)
 
 使用JobService可以实现APP进程防杀。
 
-首先需要声明权限   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+首先需要声明权限
+
+ <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
