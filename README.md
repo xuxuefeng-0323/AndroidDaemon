@@ -14,7 +14,7 @@ abstract boolean onStopJob(JobParameters params)
 当我们有以下需求时，可以使用调度作业
 
    1.APP有可以推迟的非面向用户的工作
-   
+  
    2.APP有当插入设备时您希望优先执行的工作
    
    3.APP有需要访问网络或 Wi-Fi 连接的任务
